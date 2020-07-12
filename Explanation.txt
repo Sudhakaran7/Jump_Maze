@@ -1,0 +1,39 @@
+Sudhakaran entered in a maze game, where it is a straight line of boxes, his ultimate
+goal is to reach the given destination box, but there are few constraints, 
+he have to move i th move at ith location for example, if he is moving for the first step
+he have to move from 0 to 1 and in next step, he have move from 1 to 3, because it is his second move,
+likewise he have to reach he destination, he can move front and back at ith time, but he should not cross the 
+destination, help him to do that.
+
+Input description:
+Destnation box as integer
+
+Output description:
+Number of moves to reach the destination
+
+Sample input:
+4
+
+Sample output:
+3
+
+Explanation:
+Initially he'll be standing at 0,
+first move he will move from 0 to -1 (1 move)  -------->count 1
+second move, he will move from -1 to 1 (2 moves)-------->count 2
+third move, he will move from 1 to 4 (3 moves)  -------->count 3
+so he can reach the destination by 3 moves.
+
+Sample input:
+7
+
+Sample output:
+5
+
+Explanation:
+1st move -> (0->1) ------>count1
+2nd move -> (1->3) ------>count2
+3rd move -> (3->6) ------>count3
+4th move -> (6->2) ------>count4
+5th move -> (2->7) ------>count5
+so the output is 5
